@@ -10,16 +10,16 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-app.sendSongs('/media', (req, res) => {
-  // Get mongoDB collection of songs
-  /**
-   * {
-   *   name: String,
-   *   url: String
-   * }
-   */
+// app.sendSongs('/media', (req, res) => {
+//   // Get mongoDB collection of songs
+//   /**
+//    * {
+//    *   name: String,
+//    *   url: String
+//    * }
+//    */
   
-}) 
+// }) 
 
 // from front end make request to 'http://localhost:3000/heat.mp3'
 app.get('/media/:soundFile', (req, res) => {
