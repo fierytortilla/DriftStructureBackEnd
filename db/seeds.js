@@ -18,6 +18,11 @@ module.exports = [
         "title": "Bit About Yourself",
         "artist":"Johnny Greenwood",
         "url":"http://localhost:3000/media/bitAboutYourself"
+    },
+    {
+        "title": "Fantas",
+        "artist":"Caterina Barbieri",
+        "url":"http://localhost:3000/media/fantas"
     }
 ];
 
