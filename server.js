@@ -4,6 +4,7 @@ const path = require('path');
 const cors = require("cors");
 // const MongoClient = require('mongodb').MongoClient; 
 const songs = require('./db/seeds.js')
+const fs = require('fs')
 
 app.use(express.static(path.join(__dirname, 'media')))
 app.use(cors());
