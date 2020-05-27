@@ -14,17 +14,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/media', (req, res) => {
-  // Get mongoDB collection of songs
-  /**
-   * {
-   *   name: String,
-   *   url: String
-   * }
-  //  */
-  // for(song in songs){
   res.json(songs)
-    // res.sendFile(__dirname+`/media/${req.params.soundFile}`);
-  // }
 }) 
 
 // from front end make request to 'http://localhost:3000/songName.mp3'

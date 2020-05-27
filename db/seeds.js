@@ -1,12 +1,3 @@
-// use driftStructure;
-// db.dropDatabase();
-
-// Server side exports and imports
-// const import = require()
-
-// exports.varName = whatever
-// module.exports = the whole damn thing
-
 module.exports = [
     {
         "title": "Sounded",
